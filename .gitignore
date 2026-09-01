@@ -1,0 +1,32 @@
+# Python 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# Python 编译文件
+__pycache__/
+*.py[cod]
+*.pyc
+
+# IDE 配置
+.vscode/
+.idea/
+
+# 临时文件
+temp/
+logs/
+*.tmp
+*.log
+
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# PyInstaller 打包输出
+dist/
+build/
+*.spec
+
+# 配置文件（包含本地路径）
+config/settings.json
